@@ -1,0 +1,7 @@
+Début SouhaiterBienvenue
+   Afficher "Saisir un nombre" 
+   nbSaisi <- lire entier 
+   Répéter (nbSaisi) 
+      Afficher "Bienvenue à la wild" 
+   Fin Répéter 
+Fin SouhaiterBienvenue

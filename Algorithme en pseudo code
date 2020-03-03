@@ -2,14 +2,10 @@ Début NombreBonbonsAchetés
    argent <- lire réel 
    prix <- lire réel 
    nbBonbons <- 0
-   prixPayé <- 0
    Si argent et prix > 0
-      Si prix <= argent
-         Tant que prixPayé + prix < argent
-            prixPayé <- prixPayé + prix
-            nbBonbons <- nbBonbons + 1
-         Fin tant que
-      Fin si
+      Tant que nbBonbons * prix <= argent
+         nbBonbons <- nbBonbons + 1
+      Fin tant que
    Fin si
    Afficher nbBonbons
 Fin NombreBonbonsAchetés

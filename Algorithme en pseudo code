@@ -3,7 +3,7 @@ Début NombreBonbonsAchetés
    prix <- lire réel 
    nbBonbons <- 0
    Si argent et prix > 0
-      Tant que nbBonbons * prix <= argent
+      Tant que (nbBonbons+1)* prix <= argent
          nbBonbons <- nbBonbons + 1
       Fin tant que
    Fin si
